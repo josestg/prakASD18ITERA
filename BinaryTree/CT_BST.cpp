@@ -87,7 +87,42 @@ void printPostorder(Addrnode p);
 * @constraint   : value node di BST unik, left node < root < right node
 */
 Addrnode insert(Addrnode p, Infotype val);
-   
+
+// SOAL
+void findMinDiff(Bintree T,int target, int *mindiff,int *mindiff_val){
+    if (empty(T)) 
+        return ; 
+  
+    // jika ketemu target
+    if ($root(T) == target) { 
+        *mindiff_val = target; 
+        return; 
+    } 
+  
+    // ubah mindiff dan mindiff_val dengan melihat
+    // value node saat init
+    if (*mindiff > abs($root(T) - target)) 
+    { 
+    } 
+  
+    // jika arget < $root(T) lakukan traversal
+    if (target < $root(T)) 
+        //
+    else
+        //
+}
+
+Infotype getClosestNeighbor(Addrnode T,int N){
+    // Karna akan mencari maxima ada baiknya lakukan init dengan
+    // idenya : untuk mencari maximal kita set value ke minimal begitu juga sebaliknya
+    int mindiff = 100000, mindiff_val = -1; 
+  
+    //gunakan procedur ini untuk mencari nilai dari  
+    findMinDiff(T, N, &mindiff, &mindiff_val); 
+  
+    return mindiff_val; 
+}
+
 
 int main() 
 { 
