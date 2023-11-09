@@ -49,6 +49,27 @@
   
 </details>
 
+<details>
+  <summary>
+    <b>Soal-2</b>
+  </summary>
+  <p align="center">
+    Time Limit = 1s
+  </p>
+  
+  <p align="center">
+    Memory Limit = 32MB
+  </p>
+  
+2. Buatlah sebuah program yang dapat menghitung mundur dari bilangan n sampai 0 dengan menggunakan rekursif.
+  
+  #### Sampel output
+|           Input        |          Ouput         |
+| :--------------------: | :--------------------: |
+| 5                      |  5 4 3 2 1             |
+  
+</details>
+
 
 
 
