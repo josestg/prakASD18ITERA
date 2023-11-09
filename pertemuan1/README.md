@@ -1,4 +1,5 @@
-## TUGAS PRAKTIKUM
+## TUGAS PRAKTIKUM 1
+##### ALGORITMA DAN STRUKTUR DATA 2018
 
 <details>
   <summary>
