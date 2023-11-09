@@ -70,6 +70,70 @@
   
 </details>
 
+<details>
+  <summary>
+    <b>Soal-3</b>
+  </summary>
+  <p align="center">
+    Time Limit = 1s
+  </p>
+  
+  <p align="center">
+    Memory Limit = 32MB
+  </p>
+  
+3. Buatlah sebuah program yang dapat menghitung bilangan dari 0 sampai dengan n dengan menggunakan rekursif.
+  
+  #### Sampel output
+|           Input        |          Ouput         |
+| :--------------------: | :--------------------: |
+| 5                      |  0 1 2 3 4 5           |
+  
+</details>
+
+<details>
+  <summary>
+    <b>Soal-4</b>
+  </summary>
+  <p align="center">
+    Time Limit = 1s
+  </p>
+  
+  <p align="center">
+    Memory Limit = 32MB
+  </p>
+  
+4. Lengkapi kode program berikut sehingga didapat output yang diinginkan.
+
+```c++
+#include<iostream>
+  using namespace std;
+  void Persegi (int x, int y, int z){
+    if(..(c)..){
+      if(..(d)..){
+        cout << ..(e)..;
+        Persegi(z,y-1,z);
+      }
+    else{
+        cout << "*";
+        Persegi(..(f)..);
+      }
+    }
+  }
+  int main(){
+    int p, l;
+    cin >> p >> ..(a)..;
+    Persegi(..(b)..);
+    return 0;
+}
+```
+  
+  #### Sampel output
+| Input  |          Ouput         | Input |          Ouput         |
+| :----: | :--------------------: | :--------------------: | :--------------------: |
+| 6  4    |  ****** <br> ****** <br> ****** <br> ****** | 7  3    |  ******* <br> ******* <br> *******|
+  
+</details>
 
 
 
