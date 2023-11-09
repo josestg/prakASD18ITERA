@@ -26,7 +26,8 @@ Addrnode allocNode(Infotype val)
 } 
 void makeTree(Bintree *T,Infotype val){*T=allocNode(val);}
 void printInorder(Addrnode p);
-Infotype getClosestNeighbor();
+void findMinDiff(Bintree T,int target, int *mindiff,int *mindiff_val);
+Infotype getClosestNeighbor(Addrnode T, int N);
 Addrnode insert(Addrnode *p, Infotype val);
    
 int main() 
