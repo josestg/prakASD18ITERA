@@ -163,8 +163,12 @@ void deleteFirst (List *L, infotype *X){
     *X = Info(P);
     if (Next(P) == Nil)    // 1 element only
         createList(L);
-    else
+    else{
         First(*L) = Next(P);
+        Next(P) = Nil;
+        dealokasi(&P);
+    }
+
 }
 
 void deleteAfter (List *L, address *Pdel, address Prec){
