@@ -135,6 +135,27 @@
   
 </details>
 
+<details>
+  <summary>
+    <b>Soal-5</b>
+  </summary>
+  <p align="center">
+    Time Limit = 1s
+  </p>
+  
+  <p align="center">
+    Memory Limit = 32MB
+  </p>
+  
+5. Perkalian merupakan penjumlahan berulang sebuah bilangan sebanyak pengalinya (2 × 3 ⇔ 2 + 2 + 2) Buatlah sebuah program yang menampilkan proses penjumlahan dari suatu perkalian
+  
+  #### Sampel output
+|           Input        |          Ouput         |
+| :--------------------: | :--------------------: |
+| 2  3                   |  2 + 2 + 2 = 6           |
+  
+</details>
+
 
 
 
