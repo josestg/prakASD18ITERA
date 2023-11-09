@@ -13,7 +13,6 @@ void pemnjumlahanSubset(int arr[],int l,int r, int sum){
     }
     pemnjumlahanSubset(arr,l+1,r,sum+arr[l]);
     pemnjumlahanSubset(arr,l+1,r,sum);        
-    cout<<" bawah"<<endl;
 }
 
 int main(){
